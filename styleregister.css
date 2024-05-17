@@ -1,0 +1,61 @@
+/* Kontainer pendaftaran */
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk input dan label */
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gaya untuk tombol submit */
+.submit-button-container {
+    text-align: center; /* Membuat tombol terpusat */
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Gaya untuk tombol saat di-hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Judul halaman */
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}

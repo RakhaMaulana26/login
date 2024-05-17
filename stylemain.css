@@ -1,0 +1,47 @@
+/* Reset margin dan padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya umum untuk halaman utama */
+body {
+    font-family: Arial, sans-serif; /* Gaya font */
+    line-height: 1.5; /* Jarak baris */
+    background-color: #f5f5f5; /* Warna latar belakang */
+    margin: 0; /* Margin nol */
+    padding: 0; /* Padding nol */
+    text-align: center; /* Pusatkan teks */
+    padding-top: 20px; /* Padding atas */
+}
+
+/* Gaya untuk judul halaman */
+h1 {
+    font-size: 2rem; /* Ukuran font besar */
+    color: #333; /* Warna teks */
+    margin-bottom: 20px; /* Margin bawah */
+}
+
+/* Gaya untuk paragraf */
+p {
+    margin-bottom: 10px; /* Margin bawah */
+    font-size: 1rem; /* Ukuran font */
+    color: #666; /* Warna teks */
+}
+
+/* Gaya untuk tautan */
+a {
+    color: #007BFF; /* Warna teks */
+    text-decoration: none; /* Hapus garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Tambahkan garis bawah saat hover */
+}
+
+/* Gaya untuk tautan khusus */
+a.special-link {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
